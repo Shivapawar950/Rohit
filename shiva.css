@@ -1,0 +1,54 @@
+nav {
+      border:1px;
+      background-color:green;
+      color:white;
+      padding: 16px;
+      position:fixed ;
+    display: flex;
+   justify-content : space-around ;
+  align-items: center; 
+      flex-wrap: wrap;
+      width:100%;
+      top:0;
+      transition: background-color 0.3s ease;
+       }
+nav :hover{
+  background-color: darkgreen;
+}
+nav    a {
+      text-decoration: none;
+      color:white;
+      font-size: 15px;
+      margin: 3px;
+      transition: color 0.3s ease, background-color 0.3s ease;
+ 
+   
+       }
+       
+       nav a:hover {
+  background-color: white;
+  color: green;
+  border-radius: 5px;
+}
+
+ul {
+      text-align: center;
+      border:1px solid;
+      padding: 20px;
+    }
+    p{
+      margin: 10px;
+    }
+  
+      
+  body{
+    padding-top: 25px;
+    margin: 0;
+  }
+   h1{
+     margin-block: 30px;
+   }
+   /*aside {
+   display: flex;
+     width: 3rem;
+   }
